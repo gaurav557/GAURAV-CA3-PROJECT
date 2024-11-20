@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TELE FILM</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #050505;
+        }
+
+        h1 {
+            text-align: center;
+            color: #f6f5f5;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(6, 1fr); 
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .movie {
+            background-color: #aeacac;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            text-align: center;
+        }
+
+        .movie img {
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+        }
+
+        .movie-title {
+            font-size: 1.2em;
+            padding: 10px;
+        }
+        .red-button {
+            background-color: red; 
+            color: white; 
+            padding: 10px 20px;  
+            border: none;  
+            border-radius: 5px;  
+            text-decoration: none;  
+            font-size: 16px;  
+            cursor: pointer;  
+            position: fixed; 
+            top: 10px;  
+            right: 10px; 
+        }
+        
+        .red-button:hover {
+            background-color: darkred;  
+        }
+        .about-button {
+            right: 100px; 
+        }
+
+        .download-link {
+            display: inline-block;
+            margin-bottom: 15px;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: rgb(17, 16, 16);
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .download-link:hover {
+            background-color: #0056b3;
+        }
+        
+        .BACK-button {
+            display: block;
+            width: 200px;
+            margin: 40px auto;
+            padding: 15px;
+            background-color: #ff0000;
+            color: white;
+            text-align: center;
+            font-size: 1.2em;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .BACK-button:hover {
+            background-color: #cc0000;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>TELE FILM</h1>
+    <div class="container">
+         
+        <div class="movie">
+            <img src="https://th.bing.com/th/id/OIP.-tfnszY2oEUIBKEkVIeGbAHaLI?w=203&h=306&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="IRON MAN">
+            <div class="movie-title">IRON MAN</div>
+            <a href="movie1.mp4" class="download-link" download>Download</a>
+        </div>
+
+        <div class="movie">
+            <img src="https://th.bing.com/th/id/OIP.IyBn-_CTo15X_70glaeG9AHaK1?w=206&h=302&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Movie 2">
+            <div class="movie-title">SPIDER MAN</div>
+            <a href="movie2.mp4" class="download-link" download>Download</a>
+        </div>
+        <div class="movie">
+            <img src="https://th.bing.com/th/id/OIP.F1ty5y_noGURjU4vtOQXogHaI4?w=135&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Movie 3">
+            <div class="movie-title">CHOTTA BHEEM</div>
+            <a href="movie2.mp4" class="download-link" download>Download</a>
+        </div>
+        <div class="movie">
+            <img src="https://th.bing.com/th/id/OIP.W5weHvVgDL2PKMKsW5tkHQHaNK?w=187&h=333&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Movie 2">
+            <div class="movie-title">SUPER MAN</div>
+            <a href="movie2.mp4" class="download-link" download>Download</a>
+        </div>
+        <div class="movie">
+            <img src="https://th.bing.com/th/id/OIP.y899lC90TkVVvg68-dA0KwHaKd?w=208&h=294&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Movie 2">
+            <div class="movie-title">BAT MAN</div>
+            <a href="movie2.mp4" class="download-link" download>Download</a>
+        </div>
+        <div class="movie">
+            <img src="https://th.bing.com/th/id/OIP.lipH8gTMGCJ0C9PqkfjUsQHaK-?w=205&h=304&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Movie 2">
+            <div class="movie-title">ANT MAN</div>
+            <a href="movie2.mp4" class="download-link" download>Download</a>
+        </div>
+        <div class="movie">
+            <img src="https://th.bing.com/th/id/OIP.GrbPZysSjU-1hG8NNvhXaQHaNK?w=115&h=181&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Movie 2">
+            <div class="movie-title">PUSPHA</div>
+            <a href="movie2.mp4" class="download-link" download>Download</a>
+        </div>
+        <div class="movie">
+            <img src="https://th.bing.com/th/id/OIP.fYLXgLBnnbp3N8JCRuUIGAHaLH?w=204&h=306&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Movie 2">
+            <div class="movie-title">INCEPTION</div>
+            <a href="movie2.mp4" class="download-link" download>Download</a>
+        </div>
+        <div class="movie">
+            <img src="https://th.bing.com/th/id/OIP.5lkUNKtAztHVLGFeWkCGgwHaLH?w=115&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Movie 2">
+            <div class="movie-title">LUCY</div>
+            <a href="movie2.mp4" class="download-link" download>Download</a>
+        </div>
+        <div class="movie">
+            <img src="https://th.bing.com/th/id/OIP.hdVZvDzOsF79BDySpjRhFQHaKF?w=208&h=283&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Movie 2">
+            <div class="movie-title">GAME OF THRONE</div>
+            <a href="movie2.mp4" class="download-link" download>Download</a>
+        </div>
+        <div class="movie">
+            <img src="https://th.bing.com/th/id/OIP.phT7TlCkoLsLCZc8okmSKwHaNK?w=187&h=333&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Movie 2">
+            <div class="movie-title">AVENGER</div>
+            <a href="movie2.mp4" class="download-link" download>Download</a>
+        </div>
+        <div class="movie">
+            <img src="https://th.bing.com/th/id/OIP.SmuirXSsxr_VlG9cBwcTFAHaLH?w=204&h=306&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Movie 2">
+            <div class="movie-title">THE HULK</div>
+            <a href="movie2.mp4" class="download-link" download>Download</a>
+        </div>
+        <div class="movie">
+            <img src="https://th.bing.com/th/id/OIP.fT2Uqlhx7YxdXz3VKBBPJAHaKe?w=208&h=294&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Movie 2">
+            <div class="movie-title">WOLF</div>
+            <a href="movie2.mp4" class="download-link" download>Download</a>
+        </div>
+        <div class="movie">
+            <img src="https://th.bing.com/th/id/OIP.IZ3b3eEJpvp6rcZpH_T2wAHaLH?w=115&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Movie 2">
+            <div class="movie-title">JOKER</div>
+            <a href="movie2.mp4" class="download-link" download>Download</a>
+        </div>
+        <div class="movie">
+            <img src="https://th.bing.com/th/id/OIP.xH7uHCY-9SoQBORFdAt6JgHaLH?rs=1&pid=ImgDetMain" alt="Movie 2">
+            <div class="movie-title">DR,STRANGE</div>
+            <a href="movie2.mp4" class="download-link" download>Download</a>
+        </div>
+        <div class="movie">
+            <img src="https://resizing.flixster.com/J5YuJPY7tf0w_88V6dgX0Y0lRsg=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzVkYWM0NmJhLTkwODktNGJkMi05MzM5LWYyMTQwOGVlZTE3OS5qcGc=" alt="Movie 2">
+            <div class="movie-title">12TH FAIL</div>
+            <a href="movie2.mp4" class="download-link" download>Download</a>
+        </div>
+        <div class="movie">
+            <img src="https://th.bing.com/th/id/OIP.idn0DmiiSTxgYpCtga2sCAHaKk?w=208&h=297&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Movie 2">
+            <div class="movie-title">PIRATES OF CARIBEAN</div>
+            <a href="movie2.mp4" class="download-link" download>Download</a>
+        </div>
+        <div class="movie">
+            <img src="https://th.bing.com/th/id/OIP.ynkkLk9TWmFCtLEr8jddTwHaK-?w=205&h=304&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Movie 2">
+            <div class="movie-title">SMILE</div>
+            <a href="movie2.mp4" class="download-link" download>Download</a>
+        </div>
+        <a href="http://127.0.0.1:5501/about%20me.html" class="red-button">About</a>
+        <a href="http://127.0.0.1:5501/TELE%20FILM.HTML" class="red-button about-button">Home</a>
+        <a href="http://127.0.0.1:5501/TELE%20FILM.HTML" class="BACK-button">back to home</a>
+
+      
+    </div>
+</body>
+</html>
